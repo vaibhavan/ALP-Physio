@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.logo{
+  display: flex;
+  gap: 30%;
+  margin-left: 30%; 
+}
+
+header {
+  background: #05a273;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #94f7d9;
+}
+
+section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 900px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  /* background: #0077aa; */
+  background: #05a273;
+  color: white;
+  margin-top: 30px;
+}
+
+.therapist {
+  margin-bottom: 20px;
+}
+
+.faq-item h4 {
+  cursor: pointer;
+  /* color: #0077aa; */
+  color: #05a273;
+}
+
+button {
+  padding: 10px 15px;
+  /* background: #0077aa; */
+  background: #05a273;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social a {
+  /* color: #0077aa; */
+  color: #05a273;
+  font-size: x-large;
+  text-decoration: none;
+  margin: 0 10px;
+} 
+
